@@ -1,7 +1,7 @@
 # UpdateDates
 I always forget to update the date field when I make edits to Microsoft documentation, and I wanted a way to have this done automatically whenever I add a file to a commit, so I wrote this program that updates the date field on any changed files to today's date.
 
-You can add a PowerShell function to your **profile.ps1** file (usually in **C:\Users\<username>\Documents\WindowsPowerShell**) that both updates the dates and adds the files in one step:
+You can add a PowerShell function to your **profile.ps1** file (usually in **C:\Users\\\<username>\Documents\WindowsPowerShell**) that both updates the dates and adds the files in one step:
 
 ```posh
 function ud {
